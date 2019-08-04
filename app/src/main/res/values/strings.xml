@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">FlightCenter</string>
+    <string name="sfprotext_regular" translatable="false">fonts/sfprotext_regular.ttf</string>
+    <string name="sfprotext_semibold" translatable="false">fonts/sfprotext_semibold.ttf</string>
+    <string name="sfprotext_light" translatable="false">fonts/sfprotext_light.ttf</string>
+    <string name="label_flights_not_found">No available flights found.</string>
+    <string name="label_flights_to">Flight To %s</string>
+    <string name="label_flight">Flight : </string>
+    <string name="label_gate">Gate : </string>
+    <string name="label_terminal">Terminal : </string>
+    <string name="label_seat">Seat : </string>
+    <string name="label_non_stop">Non-Stop</string>
+    <string name="label_trips">Trips</string>
+    <string name="label_loading_trips">Loading Flights…</string>
+</resources>

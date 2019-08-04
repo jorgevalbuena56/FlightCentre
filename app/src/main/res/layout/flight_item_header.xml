@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools">
+    <LinearLayout
+                  android:orientation="vertical"
+                  android:layout_width="match_parent"
+                  android:layout_height="wrap_content">
+
+        <com.george.flightcenter.ui.custom.FlightCenterTextView
+                android:id="@+id/flight_departure_date_header"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="10dp"
+                android:layout_marginTop="@dimen/sixteen_dp"
+                android:layout_marginLeft="@dimen/sixteen_dp"
+                android:layout_marginStart="@dimen/sixteen_dp"
+                android:textSize="16sp"
+                android:textAllCaps="true"
+                android:textColor="@color/duration_gray"
+                tools:text="WED, 21 AUGUST"
+                app:font="@string/sfprotext_semibold"/>
+    </LinearLayout>
+</layout>
